@@ -34,60 +34,44 @@ public class mainForm extends JFrame {
 
         ingresarPlatoButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
+            public void actionPerformed(ActionEvent e) {AgregarPlato();}
         });
         QuemarDatosButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
+            public void actionPerformed(ActionEvent e) {QuemarDatos();}
         });
         buscarModifButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
+            public void actionPerformed(ActionEvent e) {BuscarPlatoModificar();}
         });
         modificarModifButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
+            public void actionPerformed(ActionEvent e) {ModificarPlato();}
         });
         ButtonBuscarEliminar.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
+            public void actionPerformed(ActionEvent e) {BuscarEliminarPlato();}
         });
         eliminarButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
+            public void actionPerformed(ActionEvent e) {EliminarPaltp();}
         });
         mostrarButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
+            public void actionPerformed(ActionEvent e) {MostrarPlatos();}
         });
 
         mostrarButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
+            public void actionPerformed(ActionEvent e) {MostrarPlatos();
         });
         buscarButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
+            public void actionPerformed(ActionEvent e) {BuscarPlatoOrden();}
         });
     }
+
+
 
     //Get mainPanel
     public JPanel getMainPanel() {
